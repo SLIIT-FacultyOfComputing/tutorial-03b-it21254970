@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 void print(int len, int wth);
@@ -19,3 +20,11 @@ void print(int len, int wth) {
 }
 
 // Implement the Input Function here
+
+void input(int len, int wth)
+{
+  cout << "Enter the length : " ;
+  cin >> len;
+  cout << "Enter the width  : " ; 
+  cin <<  wth;
+}
